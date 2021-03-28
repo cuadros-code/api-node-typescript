@@ -1,0 +1,32 @@
+@api = http://localhost:4001
+
+###
+GET {{api}}/videos
+
+###
+GET {{api}}/videos/605fbff0182bc9304ceb9ec2
+
+###
+POST {{api}}/videos
+Content-Type: application/json
+
+{
+  "url": "https://planetaTecnologicosaa.tech",
+  "title": "mi page",
+  "description": "description video"
+}
+###
+PUT {{api}}/videos/605fcc451ada0e35181639fa
+Content-Type: application/json
+
+{
+  "url": "https://planetaTecnologicoses.tech",
+  "title": "mi page",
+  "description": "description video"
+}
+
+###
+DELETE {{api}}/videos/605fcc451ada0e35181639fa
+
+
+
